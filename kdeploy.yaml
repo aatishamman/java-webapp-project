@@ -26,9 +26,10 @@ metadata:
   name: loksai-eta-np-service
   labels:
     app: loksai-eta-app
+
 spec:
   selector:
-    app: loksai-eta-deploy-lbl
+    app: loksai-eta-app
 
   type: NodePort
   ports:
